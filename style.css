@@ -4,6 +4,30 @@ body {
     background-color: white;
     font-family: 'Nerko One', cursive;
 }
+.grid {
+    display: grid;
+    grid-template-columns: 50px 150px 50px;
+    grid-gap: 0 1em;
+    grid-template-areas: 
+    "logo .... photo"
+    "title title photo"
+    "condition condition button";
+}
+.logo {
+    grid-area:logo;
+}
+.title {
+    grid-area: title;
+}
+.photo {
+    grid-area: photo;
+}
+.button{
+    grid-area: button;
+}
+.condition {
+    grid-area: condition;
+}
 
 
 
