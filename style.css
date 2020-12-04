@@ -4,10 +4,9 @@ body {
     background-color: white;
     font-family: 'Nerko One', cursive;
 }
-.grid {
-    display: grid;
-    grid-template-columns:200px 200px 200px;
-}
+
+
+
 .grid-item {
     border: 3px solid rgb(151, 64, 29);
     background-color: rgb(235, 139, 104);
@@ -22,12 +21,4 @@ body {
 .big {
     padding: 3em 2em;
     background-color: rgb(53, 206, 53);
-}
-.start {
-    justify-self: start;
-    align-self: start;
-}
-.end {
-    align-self: end;
-    justify-self: end;
 }
