@@ -7,6 +7,7 @@ body {
 /* TYPOGRAPHY */
 .article-title {
     margin: 0;
+    font-size: .5 rem;
 }
 .article-image {
     width: 100%;
@@ -25,7 +26,7 @@ body {
 .article-info {
     font-size: .5rem;
 }
-/* LAYOUT */
+/* ARTICLE LAYOUT */
 .article-recent{
     border: 1px solid black;
     padding: 1em;
@@ -50,11 +51,19 @@ body {
 
 @media (min-width: 500px) {
     .article-recent{
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: minmax(150px, 250px) minmax(250px, 1fr);
         grid-template-areas: 
         "image title"
         "image body"
         "image readmore"
         "info .";
+    }
+    .article-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .article-info{
+        justify-self: start;
     }
 }
