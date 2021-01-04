@@ -89,3 +89,12 @@ and vertically(align) WITHIN THEIR AREA */
 /*justify-self & align-self properties*/
 /* use to align EACH GRID ITEMS SEPERATELY horizontally(justify) 
 and vertically(align) WITHIN THEIR AREA */
+
+Flexbox VS Grid
+flexbox built for 1 dimension layout (1 row or 1 column)
+take bases on content
+
+grid built for 2 dimensional layout (with both rows and columns)
+take bases on layout
+
+combine css grid with flexbox
